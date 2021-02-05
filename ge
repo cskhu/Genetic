@@ -1,0 +1,10 @@
+initialize random individuals and add them to
+  population
+while termination condition is not met do
+     evaluate fitness of individuals in population
+     select two individuals from population
+     apply crossover on them to produce an
+       offspring
+     apply mutation on offspring
+     remove weakest individual from population
+end
