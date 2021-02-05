@@ -1,0 +1,12 @@
+generate initial state
+initialize temperature
+while termination condition is not met do
+     evaluate energy of state
+     generate a new state in the neighborhood of
+       current state
+     evaluate energy of new state
+     probabilistically decide to accept the new
+       state based on energy, new energy and
+       temperature
+     cool down the temperature
+end
